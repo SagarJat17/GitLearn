@@ -1,0 +1,27 @@
+To untrack a file :
+git rm --cached filename
+
+TO rename a file :
+git mv filename new_filename
+
+To change previous commit :
+git commit --amend
+
+
+To know what has been changed with commit with diff:
+git log -p and also we can use git log -p -n for no of commits we need to see
+
+To know show all info of insertions and deletions :
+git log --stat
+
+To know all commits in one line :
+git log --pretty=oneline(for getting o/p in one line)/short or full
+
+To know for specific time:
+git log --since =2.days or months anything.
+
+To format for a particular filed:
+git log --pretty=format:"%h -- %ae"(ae- author email)
+
+
+
